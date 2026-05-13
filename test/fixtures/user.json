@@ -1,0 +1,12 @@
+{
+    "status": true,
+    "message": "Login successful.",
+    "data": {
+        "user": {
+            "id": 8,
+            "name": "John Doe",
+            "email": "john@test.com"
+        },
+        "token": "162|awFlhrYwbuU1cXhm7q1tqo2VrWsWPCGagBry2Chr7fd08773"
+    }
+}

@@ -1,0 +1,58 @@
+name: salon_booker_app
+description: "A salon booker app."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  bloc_test: ^10.0.0
+  cached_network_image: ^3.4.1
+  dio: ^5.9.0
+  equatable: ^2.0.7
+  firebase_core: ^4.3.0
+  firebase_crashlytics: ^5.0.6
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_dotenv: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
+  flutter_screenutil: ^5.9.3
+  flutter_secure_storage: ^10.0.0
+  fpdart: ^1.2.0
+  get_it: ^9.2.0
+  geolocator: ^14.0.2
+  go_router: ^17.0.1
+  logger: ^2.6.2
+  pretty_dio_logger: ^1.4.0
+  razorpay_flutter: ^1.4.0
+  shared_preferences: ^2.5.4
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
+    - assets/images/products/
+    - assets/images/categories/
+    - assets/saloons/
+
+# Flutter Native Splash configuration
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/splash_screen_image/splash_screen_icon_image.png"
+  android_12:
+    color: "#FFFFFF"
+    icon_background_color: "#FFFFFF"
+    image: "assets/splash_screen_image/splash_screen_icon_image.png"
